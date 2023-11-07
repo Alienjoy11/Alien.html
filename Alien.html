@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Unspoken Love</title>
+</head>
+<body>
+    <p>In a tranquil neighborhood of yesteryears, I played cricket under the azure sky, near the house that held her gaze. Day by day, she watched from her window, a silent observer. A mere hundred steps separated our worlds. Then, at her brother's birthday soiree, her eyes still found me in the crowd, though we remained apart. Courage eluded me, and my heart's secret remained concealed.</p>
+
+    <p>Time flowed, and we found ourselves at the same school, fate's gentle hand guiding us closer. A rainy day unfolded, her father's bike waiting to whisk her away. My father's absence kept me grounded, but her voice carried an invitation. Politeness masked my longing as I declined her sweet offer.</p>
+
+    <p>In time, her number fell into my hands, a connection to the mystery that had entranced me. A fateful 3 am call, unintentional and humorous, but my words of affection remained locked away.</p>
+
+    <p>Within her father's drug store, her sanctuary, she spent hours tending to the needs of others. Our gazes met in that place, but destiny had a playful twist, and my bike veered off course, embracing a taxi's grace. Her smile became a beacon of hope, a glimmer in the enigmatic dance of our connection.</p>
+
+    <p>Time flowed like a river, and as our farewell approached, her eyes spoke volumes, tears on the precipice. Yet, my voice remained a prisoner, and my confession remained unsung. The riddle of my silence lingered, a mystery that defied unraveling.</p>
+
+    <p>Now, I find myself far from that familiar neighborhood, missing her like a piece of a forgotten dream. Hope persists that someday our paths will entwine, and the story of our unspoken love will find its poetic conclusion.</p>
+
+    <p id="secretPhrase" style="display: none;">Secret Phrase: "I love you more than words can say."</p>
+
+    <script>
+        function revealSecretPhrase() {
+            var name = document.getElementById('nameInput').value;
+            if (name === "Avni") {
+                document.getElementById('secretPhrase').style.display = "block";
+            } else {
+                alert("Sorry, this message is not for you.");
+            }
+        }
+    </script>
+
+    <p>Please enter your name to reveal the secret phrase:</p>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button type="button" onclick="revealSecretPhrase()">Submit</button>
+</body>
+</html>
